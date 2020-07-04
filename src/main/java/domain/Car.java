@@ -16,7 +16,7 @@ public class Car implements Racing {
     @Override
     public String racing() {
         String finish = "";
-        int dice = (int) (Math.random() * 10) + 1;
+        int dice = (int) (Math.random() * 10);
         if (position == 0)
             finish = " : ";
         if (dice > 4)
